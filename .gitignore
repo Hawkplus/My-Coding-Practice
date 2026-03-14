@@ -1,41 +1,17 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# VS2022编译产物
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
 *.ilk
-
-# Debugger Files
 *.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+*.idb
+*.log
 *.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+*.recipe
+x64/
+Debug/
+Release/
+.vs/
+# VS配置文件（可选忽略）
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
